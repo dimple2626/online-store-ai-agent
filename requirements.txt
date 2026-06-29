@@ -1,0 +1,25 @@
+# ============================================================
+# Online Store AI Agent — Python Dependencies
+# ============================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# Only one of the LLM provider packages is required depending
+# on your chosen LLM_PROVIDER env variable:
+#   anthropic         → for Claude  (default)
+#   openai            → for GPT-4o
+#   google-generativeai → for Gemini
+
+# ── LLM Providers (install the one you need) ──────────────
+anthropic>=0.27.0
+openai>=1.30.0
+google-generativeai>=0.7.0
+
+# ── Web UI ────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Testing ───────────────────────────────────────────────
+pytest>=8.2.0
+
+# ── Utilities (usually pre-installed, listed for clarity) ─
+python-dotenv>=1.0.0   # optional: load .env file for API keys
