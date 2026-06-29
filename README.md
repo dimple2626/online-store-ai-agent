@@ -359,7 +359,3 @@ Tests cover:
 │  [Ask a question...]                           [Send]    │
 └──────────────────────────────────────────────────────────┘
 ```
-
----
-
-*Built with ❤️ using Python, Anthropic Claude, and Streamlit.*
